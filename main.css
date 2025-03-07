@@ -268,19 +268,19 @@
 }
 
 .social-icons a:hover {
-    background: red; /* تغيير الخلفية عند التمرير */
-    transform: scale(1.1); /* تكبير الأيقونة */
+    background: red; 
+    transform: scale(1.1); 
 }
 
 .social-icons img {
     width: 25px;
     height: 25px;
-    filter: grayscale(50%); /* جعل الألوان خافتة قليلاً */
+    filter: grayscale(50%); 
     transition: all 0.3s ease-in-out;
 }
 
 .social-icons a:hover img {
-    filter: grayscale(0); /* إظهار الألوان عند التمرير */
+    filter: grayscale(0); 
 }
 .footer-text {
     font-size: 14px;
@@ -296,6 +296,9 @@
     .product-container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+}
+.h1{
+    font-size: 20px;
 }
 
 
